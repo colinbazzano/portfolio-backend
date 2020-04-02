@@ -4,6 +4,8 @@
   "description": "Node.js with Express backend for my portfolio website.",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
