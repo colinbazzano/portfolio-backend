@@ -1,7 +1,8 @@
 const db = require("../data/dbConfig");
 
 module.exports = {
-  getProjects
+  getProjects,
+  getProjectById
 };
 
 function getProjects() {
