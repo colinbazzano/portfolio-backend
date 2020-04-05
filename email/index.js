@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const nodemailer = require("nodemailer");
-const cors = require("cors");
+// const cors = require("cors");
 const creds = require("./config.js");
 
 let transport = {
@@ -48,3 +48,11 @@ router.post("/send", (req, res, next) => {
     }
   });
 });
+
+module.exports = router;
+
+// const app = express();
+// app.use(cors());
+// app.use(express.json());
+// app.use("/", router);
+// app.listen(3002)
